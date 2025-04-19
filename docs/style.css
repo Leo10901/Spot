@@ -5,12 +5,17 @@ body {
     background: white;
 }
 
-/*.nav-containerwhite {
-        display: flex;
+.nav-containerwhite {
+       position: fixed; 
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 20px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-}*/
+    background: transparent
+}
 
 .nav-links {
     display: flex;
