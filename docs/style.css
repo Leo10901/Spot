@@ -5,12 +5,12 @@ body {
     background: white;
 }
 
-.nav-container {
+/*.nav-container {
         display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-}
+}*/
 
 .nav-links {
     display: flex;
@@ -101,7 +101,7 @@ font-size:10px;
     color: #333;
 }
 
-/* Navigation Styles */
+/* Navigation Styles*/
 .nav-container {
 /*  position: fixed; */
     width: 100%;
@@ -109,7 +109,7 @@ font-size:10px;
     z-index: 1000;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     background: transparent;
 }
@@ -348,13 +348,13 @@ font-size:10px;
     background-color: #333;
 }
 
-/* Fix stacking context */
+/* Fix stacking context
 .nav-container {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-}
+} */
 .nav-links a {
     text-decoration: none;
     color: white;
