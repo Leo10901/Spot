@@ -432,37 +432,93 @@ html {
     transform: translateY(-50%);
     pointer-events: none;
 }
-.inverted-section {
-    background: #22223b;
-    color: #f2e9e4;
-    padding: 40px 30px 30px 30px;
-    border-radius: 20px 20px 0 0;
-    margin-top: 40px;
-    box-shadow: 0 4px 32px rgba(34, 34, 59, 0.1);
+/* Contact Section*/
+/* Add at the end of your CSS file or update existing styles */
+
+/* Color Scheme */
+body {
+    background: #111;
+    color: #fff;
+}
+.nav-containerwhite {
+    background: #000 !important;
+}
+.nav-links a {
+    color: #fff !important;
+}
+.logo-circle {
+    background: #000 !important;
+}
+.logo-text {
+    color: #fff !important;
+}
+.hero-section,
+.internship-hero {
+    background-color: #222 !important;
+}
+.content-section {
+    background: #111 !important;
+    color: #fff !important;
+}
+.program-item {
+    background: #222 !important;
+    color: #fff !important;
+    border: 1px solid #333 !important;
+}
+.program-item h2, .program-item p, .program-item a {
+    color: #fff !important;
+}
+.search-bar-wrapper input[type="text"] {
+    background: #222 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+}
+.search-icon svg {
+    stroke: #bbb !important;
+}
+/* Contact Section */
+.contact-section {
+    width: 100vw;
+    min-height: 50vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.contact-content {
+    max-width: 600px;
     text-align: center;
+    margin: auto;
 }
-
-.inverted-section h2 {
-    color: #c9ada7;
-    margin-bottom: 15px;
-    font-size: 2em;
-    letter-spacing: 1px;
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
 }
-
-.inverted-section a.contact-link, .inverted-section a.survey-link {
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+.contact-link {
     display: inline-block;
-    background: #4a4e69;
-    color: #f2e9e4;
-    padding: 12px 28px;
+    background: #222;
+    color: #fff;
+    padding: 14px 32px;
     border-radius: 8px;
-    margin: 12px 8px 0 8px;
-    font-weight: 600;
+    margin: 12px 12px 0 12px;
+    font-weight: 700;
     text-decoration: none;
-    transition: background 0.2s;
+    font-size: 1rem;
+    border: 1px solid #444;
+    transition: background 0.2s, color 0.2s;
 }
-
-.inverted-section a.contact-link:hover, .inverted-section a.survey-link:hover {
-    background: #9a8c98;
-    color: #22223b;
+.contact-link:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
 }
-
