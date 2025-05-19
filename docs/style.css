@@ -412,5 +412,24 @@ html {
     background-size: cover;
     background-position: center;
 }
-
+.search-bar-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+.search-bar-wrapper input[type="text"] {
+    width: 100%;
+    padding: 12px 12px 12px 44px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
 
