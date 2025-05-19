@@ -432,4 +432,37 @@ html {
     transform: translateY(-50%);
     pointer-events: none;
 }
+.inverted-section {
+    background: #22223b;
+    color: #f2e9e4;
+    padding: 40px 30px 30px 30px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+    box-shadow: 0 4px 32px rgba(34, 34, 59, 0.1);
+    text-align: center;
+}
+
+.inverted-section h2 {
+    color: #c9ada7;
+    margin-bottom: 15px;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+.inverted-section a.contact-link, .inverted-section a.survey-link {
+    display: inline-block;
+    background: #4a4e69;
+    color: #f2e9e4;
+    padding: 12px 28px;
+    border-radius: 8px;
+    margin: 12px 8px 0 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.inverted-section a.contact-link:hover, .inverted-section a.survey-link:hover {
+    background: #9a8c98;
+    color: #22223b;
+}
 
