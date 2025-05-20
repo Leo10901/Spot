@@ -39,3 +39,23 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('keyup', filterInternshipPrograms);
     }
 });
+
+// Typewriter text for fun //
+document.addEventListener('DOMContentLoaded', function() {
+  // Target the span where the text will be animated
+  const target = document.getElementById('animated-hero-text');
+  const text = "We Connect High School Students with Opportunities in Toronto.";
+  let delay = 0;
+
+  // Clear any previous text
+  target.innerHTML = '';
+
+  // Animate each character
+  text.split('').forEach((char, i) => {
+    const span = document.createElement('span');
+    span.textContent = char;
+    span.className = 'animated-hero-char';
+    span.style.animationDelay = (0.03 * i) + 's';
+    target.appendChild(span);
+  });
+});
