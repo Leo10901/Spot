@@ -476,7 +476,7 @@ body {
 .search-icon svg {
     stroke: #bbb !important;
 }
-/* Contact Section */
+/*
 .contact-section {
     width: 100vw;
     min-height: 50vh;
@@ -521,4 +521,14 @@ body {
     background: #fff;
     color: #000;
     border: 1px solid #fff;
+}*/
+/* Typewriter Text for fun */
+@keyframes fadeInChar {
+  from { opacity: 0; transform: translateY(20px);}
+  to   { opacity: 1; transform: translateY(0);}
+}
+.animated-hero-char {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeInChar 0.4s forwards;
 }
