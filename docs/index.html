@@ -47,17 +47,22 @@
 
     
     
-        <div class="text-content">
-            <h1>We Connect High School Students with Opportunities in Toronto.</h1>
+        <div class="text-content"><h1>We Connect High School Students with Opportunities in Toronto.</h1></div>
 
-<div class="search-bar-container" style="margin: 32px 0; text-align: center;">
-           <input
-    type="text"
-    id="opportunitySearch"
-    placeholder="Search all opportunities..."
-    style="width: 70%; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;" />
-
-    <div id="searchResults" style="margin-top: 20px; text-align: left;"></div>
+<div class="spot-search-bar-container">
+  <div class="spot-search-bar-wrapper">
+    <input
+      type="text"
+      id="mainSearchInput"
+      class="spot-search-input"
+      placeholder="Search all opportunities…"
+      oninput="searchOpportunities()"
+      autocomplete="off"
+    />
+    <button class="spot-search-btn" onclick="searchOpportunities()">Search</button>
+  </div>
+</div>
+<div id="searchResults" class="spot-search-results"></div>
           
 <!-- Place this before </body> -->
     <!-- Contact Us Section -->
