@@ -434,7 +434,8 @@ html {
 }
 /* Contact Section*/
 /* Add at the end of your CSS file or update existing styles */
-/*Re comment this if it happens to destory website format */
+/*Re comment this if it happens to destory website format 
+Edit I have to fix this later down the line 
  Color Scheme
 body {
     background: #111;
@@ -476,7 +477,7 @@ body {
 .search-icon svg {
     stroke: #bbb !important;
 }
-
+*/
 
 .contact-section {
     width: 100vw;
