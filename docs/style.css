@@ -533,3 +533,89 @@ body {
   display: inline-block;
   animation: fadeInChar 0.4s forwards;
 }
+/* This is also new code so it starts here, if the website starts acting up this is to blame */
+/* --- SPOT Search Bar Styles --- */
+.spot-search-bar-container {
+  margin: 32px 0 16px 0;
+  text-align: center;
+}
+.spot-search-bar-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+}
+.spot-search-input {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+.spot-search-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.spot-search-results {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding-bottom: 16px;
+}
+.spot-program-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 24px;
+}
+.spot-program-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+.spot-program-item h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #222;
+}
+.spot-program-item p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #444;
+}
+.spot-program-item small {
+  color: #888;
+  display: block;
+  margin-bottom: 12px;
+}
+.spot-program-item a {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+/* --- Contact section at the bottom --- */
+.spot-contact-section {
+  margin-top: 64px;
+  background: #f7f7f7;
+  padding: 36px 0;
+  border-top: 1px solid #eee;
+}
+.spot-contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.spot-contact-link {
+  display: inline-block;
+  margin: 12px 16px;
+  color: #007bff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
