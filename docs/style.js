@@ -59,3 +59,11 @@ document.addEventListener('DOMContentLoaded', function() {
     target.appendChild(span);
   });
 });
+
+fetch('opportunities.json')
+  .then(res => res.json())
+  .then(opportunities => {
+    // For main search: display all
+    // For specific pages: filter by type (e.g. volunteer, internship)
+    // Use JS to dynamically build and insert the results list into the page.
+  });
