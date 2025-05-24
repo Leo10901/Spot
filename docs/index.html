@@ -46,30 +46,6 @@
  <div class="text-content">
 <h1 id="typewriter-hero"></h1>
  </div>   
- <!-- Search Bar Section -->
-    <div class="op-search-bar-container" style="margin: 30px 0; text-align: center;">
-      <input
-        type="text"
-        id="opSearchInput"
-        class="op-search-input"
-        placeholder="Search all opportunities…"
-        autocomplete="off"
-        oninput="searchOpportunities()" />
-
- <span class="search-icon">
-      <!-- Grey magnifying glass SVG -->
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
-    </span>
-
-      <button class="op-search-btn" onclick="searchOpportunities()">Search</button>
-    </div>
-    
-    <div id="opSearchResults" class="op-search-results"></div>
-  </div>
-
 
   <script>
     // --- Typewriter effect for hero text ---      
@@ -138,7 +114,32 @@ document.addEventListener('DOMContentLoaded', function() {
       `).join('');
            // Scroll Contact Us to bottom
       document.querySelector('.op-contact-section').scrollIntoView({ behavior: "auto", block: "end" });
-        </script>
+
+ <!-- Search Bar Section -->
+    <div class="op-search-bar-container" style="margin: 30px 0; text-align: center;">
+      <input
+        type="text"
+        id="opSearchInput"
+        class="op-search-input"
+        placeholder="Search all opportunities…"
+        autocomplete="off"
+        oninput="searchOpportunities()" />
+
+ <span class="search-icon">
+      <!-- Grey magnifying glass SVG -->
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </span>
+
+      <button class="op-search-btn" onclick="searchOpportunities()">Search</button>
+    </div>
+    
+    <div id="opSearchResults" class="op-search-results"></div>
+  </div>
+
+</script>
           
     <!-- Contact Us Section -->
  <div class="contact-section">
