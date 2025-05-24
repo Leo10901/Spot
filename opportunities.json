@@ -1,0 +1,275 @@
+[
+  {
+    "title": "Harvard Ventures-TECH Summer Program",
+    "type": "summer",
+    "deadline": "Rolling Admissions",
+    "link": "https://tech.seas.harvard.edu/summer/apply",
+    "description": "Join Harvard's summer tech program to learn from experts and work on innovative projects."
+  },
+  {
+    "title": "Yale Young Global Scholars",
+    "type": "summer",
+    "deadline": "January 14th",
+    "link": "https://globalscholars.yale.edu/how-to-apply",
+    "description": "Academic enrichment program at Yale for outstanding high school students from around the world."
+  },
+  {
+    "title": "Johns Hopkins Pre-College Summer Program",
+    "type": "summer",
+    "deadline": "January 8",
+    "link": "https://summer.jhu.edu/programs-courses/pre-college-programs/",
+    "description": "Rigorous summer courses for high school students in STEM and humanities."
+  },
+  {
+    "title": "Dev Degree by Shopify",
+    "type": "summer",
+    "deadline": "September 15",
+    "link": "https://devdegree.ca/",
+    "description": "Four-year program with a paid internship at Shopify and a CS degree."
+  },
+  {
+    "title": "Amazon Future Engineer Scholarship Program",
+    "type": "summer",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.amazonfutureengineer.com/scholarships",
+    "description": "Scholarships and internship opportunities for students in CS or engineering."
+  },
+  {
+    "title": "SHAD Canada",
+    "type": "summer",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.shad.ca/apply/",
+    "description": "Summer enrichment program for high-achieving Canadian students in STEM and business."
+  },
+  {
+    "title": "Meta Summer Academy",
+    "type": "summer",
+    "deadline": "Seasonal Intake",
+    "link": "https://metasummeracademy.com/",
+    "description": "Explore tech and product development careers at Meta with mentorship and hands-on experience."
+  },
+  {
+    "title": "University of Toronto Camp Counsellor",
+    "type": "summer",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.uoft.ca/summer-camps",
+    "description": "Lead and inspire campers at UofT's summer camps, develop leadership skills."
+  },
+  {
+    "title": "The Rockefeller University Summer Science Research Program",
+    "type": "summer",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.rockefeller.edu/outreach/ssrp/",
+    "description": "Summer research program for students interested in biomedical sciences."
+  },
+  {
+    "title": "Columbia Writing Program",
+    "type": "summer",
+    "deadline": "Course Starts July 21-31",
+    "link": "https://precollege.sps.columbia.edu/programs/summer-programs/columbia-writing-academy-summer",
+    "description": "Two-week intensive writing course at Columbia for university or college prep."
+  },
+  {
+    "title": "Nokia Summer Internship",
+    "type": "summer",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/canada/future-tech-summer-internship/",
+    "description": "Eight-week internship with Nokia engineering teams."
+  },
+  {
+    "title": "Summer Company Ontario",
+    "type": "grant",
+    "deadline": "Seasonal intake",
+    "link": "https://www.ontario.ca/page/start-summer-company-students",
+    "description": "Learn to run your own student business with mentorship and support."
+  },
+  {
+    "title": "Sick Kids Hospital",
+    "type": "volunteer",
+    "deadline": "March 20th",
+    "link": "https://www.sickkids.ca/en/careers-volunteer/volunteering/volunteer-programs/",
+    "description": "Volunteer at Toronto's largest children's hospital in various roles."
+  },
+  {
+    "title": "St. Joseph Hospital",
+    "type": "volunteer",
+    "link": "https://www.volgistics.com/appform/2122758960",
+    "description": "Support patients and staff in a healthcare setting."
+  },
+  {
+    "title": "Micheal Garron Hospital",
+    "type": "volunteer",
+    "link": "https://www.tehn.ca/careers-volunteering/volunteering/student-volunteer-program",
+    "description": "Hospital volunteer program with various support roles."
+  },
+  {
+    "title": "Volunteering in India",
+    "type": "volunteer",
+    "link": "https://www.volunteeringindia.com/blog/best-volunteering-programs-in-india-for-high-school-students/#:~:text=Street%20Children%20Volunteering%20in%20India,-This%20is%20undoubt",
+    "description": "Work with underprivileged children in India through education and support."
+  },
+  {
+    "title": "Elections Canada",
+    "type": "volunteer",
+    "deadline": "Election Dependant",
+    "link": "https://www.elections.ca/scripts/vis/FindED?L=e&ED=&EV=&EV_TYPE=&PC=&Prov=&ProvID=&MapID=&QID=-1&PageID=20&TPageID=33",
+    "description": "Volunteer in federal elections and get paid above minimum wage."
+  },
+  {
+    "title": "Art Gallery of Ontario",
+    "type": "volunteer",
+    "deadline": "Seasonal intake",
+    "link": "https://ago.ca/volunteer",
+    "description": "Volunteer in various departments at the AGO and support art events."
+  },
+  {
+    "title": "YMCA of Greater Toronto",
+    "type": "volunteer",
+    "deadline": "Ongoing",
+    "link": "https://ymcagta.org/join-our-team/volunteer-with-the-ymca",
+    "description": "Volunteer in youth programs, fitness, or community outreach across GTA."
+  },
+  {
+    "title": "Toronto Public Library",
+    "type": "volunteer",
+    "deadline": "Ongoing",
+    "link": "https://www.torontopubliclibrary.ca/about-the-library/volunteer/",
+    "description": "Support literacy and learning at Toronto library branches."
+  },
+  {
+    "title": "Royal Ontario Museum",
+    "type": "volunteer",
+    "deadline": "Seasonal intake",
+    "link": "https://www.rom.on.ca/en/join-us/volunteer",
+    "description": "Volunteer at the ROM in guided tours and educational programs."
+  },
+  {
+    "title": "Toronto Zoo",
+    "type": "volunteer",
+    "deadline": "Multiple intakes",
+    "link": "https://www.torontozoo.com/tz/volunteer",
+    "description": "Help with animal care, education, and conservation programs."
+  },
+  {
+    "title": "Daily Bread Food Bank",
+    "type": "volunteer",
+    "deadline": "Ongoing",
+    "link": "https://www.dailybread.ca/volunteer/",
+    "description": "Help sort, distribute food, or assist in outreach programs."
+  },
+  {
+    "title": "Volunteer Toronto",
+    "type": "volunteer",
+    "link": "https://www.volunteertoronto.ca/networking/default.asp",
+    "description": "Portal for many more Toronto volunteer opportunities."
+  },
+  {
+    "title": "RBC Summer Tech Labs Program",
+    "type": "internship",
+    "deadline": "Seasonal intake",
+    "link": "https://jobs.rbc.com/ca/en/amplify",
+    "description": "Eight-week paid internship with workshops and mentoring at RBC."
+  },
+  {
+    "title": "TKS",
+    "type": "internship",
+    "link": "https://tks.softr.app/tks2526waitlist",
+    "description": "Accelerator program for ambitious young people."
+  },
+  {
+    "title": "Ladder Internships",
+    "type": "internship",
+    "deadline": "Constant Opportunities",
+    "link": "https://www.ladderinternships.com/ladder-internships-blog/law-internships-for-high-school-stude",
+    "description": "Connects high school students with remote internships."
+  },
+  {
+    "title": "Indeed",
+    "type": "internship",
+    "deadline": "Constant Opportunities!",
+    "link": "https://ca.indeed.com/q-internships-for-high-school-students-l-ontario-jobs.html",
+    "description": "Job search platform listing internship opportunities."
+  },
+  {
+    "title": "Cincinnati Museum",
+    "type": "internship",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.cincymuseum.org/internship-opportunities/",
+    "description": "Unpaid internships in museum operations and education."
+  },
+  {
+    "title": "Inspirit AI",
+    "type": "internship",
+    "deadline": "Constant Opportunities",
+    "link": "https://www.inspiritai.com/blogs/ai-blog/business-internships-for-high-school-students",
+    "description": "Curated list of business internships for students."
+  },
+  {
+    "title": "Formation + Netflix Internship",
+    "type": "internship",
+    "deadline": "Seasonal Intake",
+    "link": "https://formation.dev/partners/netflix",
+    "description": "Collaborate with Netflix pros on tech projects."
+  },
+  {
+    "title": "Stand Out Search",
+    "type": "internship",
+    "deadline": "Constant Opportunities!",
+    "link": "https://www.standoutsearch.com/",
+    "description": "Career platform connecting students with internships."
+  },
+  {
+    "title": "Youth of Canada",
+    "type": "internship",
+    "deadline": "Constant Opportunities!",
+    "link": "https://www.youthofcanada.ca/opportunities1",
+    "description": "Connects students with scholarships and other opportunities."
+  },
+  {
+    "title": "Job Bank Youth",
+    "type": "internship",
+    "deadline": "Constant Opportunities!",
+    "link": "https://www.jobbank.gc.ca/youth",
+    "description": "Government site for jobs and internships for youth."
+  },
+  {
+    "title": "Crimson Education",
+    "type": "internship",
+    "link": "https://www.crimsoneducation.org/ca/blog/internships-for-high-school-students/",
+    "description": "Website with high-quality internship listings."
+  },
+  {
+    "title": "College Vine",
+    "type": "internship",
+    "link": "https://blog.collegevine.com/computer-science-internships-for-high-school-students",
+    "description": "Blog with many internship opportunities for students."
+  },
+  {
+    "title": "NASA Internships",
+    "type": "internship",
+    "deadline": "Seasonal Intake",
+    "link": "https://stemgateway.nasa.gov/public/s/explore-opportunities",
+    "description": "Internships at NASA centers for students interested in space."
+  },
+  {
+    "title": "Air Force Research Library Scholar Program",
+    "type": "internship",
+    "deadline": "Seasonal Intake",
+    "link": "https://afrlscholars.usra.edu/scholarsprogram/application/",
+    "description": "Research opportunities in aerospace and defense technology."
+  },
+  {
+    "title": "Genspace BioRocket Internship",
+    "type": "internship",
+    "deadline": "Seasonal Intake",
+    "link": "https://www.genspace.org/biorocket",
+    "description": "Biotechnology internship with hands-on lab experience."
+  },
+  {
+    "title": "MIT Women's Technology Program",
+    "type": "internship",
+    "deadline": "Seasonal Intake",
+    "link": "https://web.mit.edu/wtp/",
+    "description": "Four-week summer program for female students in engineering and CS."
+  }
+]
