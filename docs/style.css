@@ -477,7 +477,7 @@ body {
 .search-icon svg {
     stroke: #bbb !important;
 }
-*/
+
 
 .contact-section {
     width: 100vw;
@@ -524,6 +524,7 @@ body {
     color: #000;
     border: 1px solid #fff;
 }
+*/
 /* Typewriter Text for fun */
 @keyframes fadeInChar {
   from { opacity: 0; transform: translateY(20px);}
