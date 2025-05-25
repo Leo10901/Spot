@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     typeWriter();
   });
-</script>
+
 
 <div class="search-container" style="margin: 30px 0; text-align: center;">
   <div class="search-bar-wrapper">
@@ -77,7 +77,17 @@ document.addEventListener('DOMContentLoaded', function() {
       placeholder="Search for opportunities..." 
       class="search-input"
     />
-    <span class="search-icon">
+
+    <div class="op-search-bar-container" style="margin: 30px 0; text-align: center;">
+      <input
+        type="text"
+        id="opSearchInput"
+        class="op-search-input"
+        placeholder="Search all opportunities…"
+        autocomplete="off"
+        oninput="searchOpportunities()" /> -->
+
+            <span class="search-icon">
       <!-- Grey magnifying glass SVG -->
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"></circle>
@@ -87,8 +97,60 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
 
+         
 
-    
+  // --- Search bar logic (matches Internship page) ---
+<script>
+  let allOpportunities = []; 
+    /async function fetchOpportunities() { 
+      if (allOpportunities.length) return allOpportunities; 
+      try {
+        const res = await fetch('opportunities.json');
+        allOpportunities = await res.json();
+        return allOpportunities;
+      } catch (e) {
+        document.getElementById('opSearchResults').innerHTML = "<p>Failed to load opportunities.</p>";
+        return [];
+      }
+    }
+
+    async function searchOpportunities() {
+      const query = document.getElementById('opSearchInput').value.trim().toLowerCase();
+      const opportunities = await fetchOpportunities();
+      let results = [];
+      if (query) {
+        results = opportunities.filter(opp =>
+          (opp.title && opp.title.toLowerCase().includes(query)) ||
+          (opp.description && opp.description.toLowerCase().includes(query)) ||
+          (opp.type && opp.type.toLowerCase().includes(query))
+        );
+      } else {
+        results = [];
+      }
+
+      const resultsDiv = document.getElementById('opSearchResults');
+      if (!query) {
+        resultsDiv.innerHTML = '';
+        return;
+      }
+      if (results.length === 0) {
+        resultsDiv.innerHTML = '<p style="text-align:center;">No opportunities found.</p>';
+        return;
+      }
+      resultsDiv.innerHTML = results.map(opp => `
+        <div class="op-result-card">
+          <h2>${opp.title}</h2>
+          <p class="op-result-desc">${opp.description || ""}</p>
+          <div class="op-result-deadline">
+            ${opp.deadline ? `<b>Deadline:</b> ${opp.deadline}` : ""}
+          </div>
+          <div>
+            <a href="${opp.link}" target="_blank" class="op-result-link">Apply Here</a>
+          </div>
+        </div>
+      `).join('');
+
+</script>   
 </body>   
             
 </html>           
