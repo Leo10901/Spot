@@ -623,32 +623,3 @@ body {
 }
 */
 /*New ChatGPT section if starts to act up kill*/
-@keyframes fadeInCharX {
-  0% {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Animated Characters Class (renamed for uniqueness) */
-.animated-hero-char-x {
-  display: inline-block;
-  opacity: 0;
-  animation: fadeInCharX 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-/* Optional container style if needed */
-.animated-hero-text-wrapper {
-  font-size: 36px;
-  color: black;
-  text-align: center;
-  margin: 40px auto;
-  max-width: 800px;
-  padding: 0 16px;
-}
-
-
