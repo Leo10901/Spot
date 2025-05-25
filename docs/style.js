@@ -17,27 +17,46 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Typewriter text for fun – KEEP THIS
-document.addEventListener('DOMContentLoaded', function() {
+// Typewriter text for fun – KEEP THIS UNDO the side dashes  if the other code doesnt work 
+// document.addEventListener('DOMContentLoaded', function() {
   // Target the span where the text will be animated
-  const target = document.getElementById('animated-hero-text');
-  const text = "We Connect High School Students with Opportunities in Toronto.";
-  let delay = 0;
+//  const target = document.getElementById('animated-hero-text');
+//  const text = "We Connect High School Students with Opportunities in Toronto.";
+ // let delay = 0;
 
   // Clear any previous text
   if (target) target.innerHTML = '';
 
   // Animate each character
-  if (target) {
-    text.split('').forEach((char, i) => {
-      const span = document.createElement('span');
-      span.textContent = char;
-      span.className = 'animated-hero-char';
-      span.style.animationDelay = (0.03 * i) + 's';
-      target.appendChild(span);
+ // if (target) {
+   // text.split('').forEach((char, i) => {
+     // const span = document.createElement('span');
+    //  span.textContent = char;
+     // span.className = 'animated-hero-char';
+    //  span.style.animationDelay = (0.03 * i) + 's';
+     // target.appendChild(span);
     });
   }
 });
+
+
+const element = document.getElementById('animatedText');
+const text = element.textContent;
+element.textContent = '';
+
+[...text].forEach((char, index) => {
+  const span = document.createElement('span');
+  span.textContent = char;
+  span.style.animationDelay = `${1050 + index * 5}ms`;
+  element.appendChild(span);
+});
+
+
+
+
+
+
+
 
 resultsDiv.innerHTML = `
   <div class="spot-program-list">
