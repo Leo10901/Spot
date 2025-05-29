@@ -61,9 +61,10 @@
     });
   </script>
 
-  <!-- Search Bar Section -->
+  <!-- Search Bar Section     delete the bottom part of the search-bar wrapper style --- and change this style--- style="width: 650px; padding: 10px; font-size: 16px;"-->
   <div class="search-container" style="margin: 30px 0; text-align: center;">
-    <div class="search-bar-wrapper">
+    <div class="search-bar-wrapper"
+      style="position: relative; display: inline-block; width: 650px;">
       <input 
         type="text" 
         id="opSearchInput"
@@ -71,8 +72,12 @@
         placeholder="Search for opportunities..."
         autocomplete="off"
         oninput="searchOpportunities()"
-        style="width: 650px; padding: 10px; font-size: 16px;"
-      />
+        style="width: 100%; padding: 10px 44px 10px 10px; font-size: 16px; box-sizing: border-box;"   
+        
+        
+        
+        
+        />
       <span class="search-icon">
         <!-- Grey magnifying glass SVG -->
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
