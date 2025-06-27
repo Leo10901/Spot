@@ -17,9 +17,9 @@ window.addEventListener('scroll', function() {
     }
 });
 
- Typewriter text for fun – KEEP THIS UNDO the side dashes  if the other code doesnt work 
+ //Typewriter text for fun – KEEP THIS UNDO the side dashes  if the other code doesnt work 
  document.addEventListener('DOMContentLoaded', function() {
-   Target the span where the text will be animated
+   //Target the span where the text will be animated
   const target = document.getElementById('animated-hero-text');
   const text = "We Connect High School Students with Opportunities in Toronto.";
   let delay = 0;
