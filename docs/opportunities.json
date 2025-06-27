@@ -344,18 +344,6 @@
     "link": "https://web.mit.edu/wtp/",
     "description": "Four-week summer program for female students in engineering and CS."
   }
-  { "title": "Scholar Tree",
-    "type": "scholarship",
-    "deadline": "Seasonal Intake",
-    "link": "https://scholartree.ca/find-scholarships",
-    "description": "Scholarship website for high school  students "
-  },
- {
-        "title": "Scholarships Canada",
-        "type": "scholarship",
-        "deadline": "Seasonal Intake",
-        "link": "https://www.scholarshipscanada.com",
-        "description": "Website that advertises tons of opportunities for highschool students constantly  "
-    }
+
 ]
 
