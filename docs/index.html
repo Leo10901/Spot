@@ -96,7 +96,7 @@
     async function fetchOpportunities() { 
       if (allOpportunities.length) return allOpportunities; 
       try {
-        const res = await fetch('opportunities.json');
+        const res = await fetch('opportunities2.json');
         allOpportunities = await res.json();
         return allOpportunities;
       } catch (e) {
