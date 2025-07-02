@@ -16,7 +16,9 @@ body {
     align-items: center;
     background: transparent
 }
-
+imgblog {
+  margin-top: 24px; /* pushes the image down from what's above */
+}
 .nav-links {
     display: flex;
     gap: 30px;
