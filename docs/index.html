@@ -43,7 +43,9 @@
   </div>
 
   <div class="text-content">
-    <h1 id="typewriter-hero"></h1>
+    <h1 id="typewriter-hero">
+      <span id="hero-measure" style="visibility:hidden; white-space:nowrap;">We Connect High School Students with</span>
+    </h1>
   </div>  
 <!-- Typewriter-->
   <script>
@@ -60,6 +62,32 @@
       }
       typeWriter();
     });
+  // if this doesnt work break it 
+  document.addEventListener('DOMContentLoaded', function() {
+  // Typewriter (keep your existing code)
+  const heroText = "We Connect High School Students with Opportunities in Toronto";
+  const el = document.getElementById('typewriter-hero');
+  let i = 0;
+  function typeWriter() {
+    if (i <= heroText.length) {
+      el.textContent = heroText.substring(0, i);
+      i++;
+      setTimeout(typeWriter, 10);
+    }
+  }
+  typeWriter();
+
+  // Search bar width and position
+  const measureSpan = document.getElementById('hero-measure');
+  const searchBarWrapper = document.getElementById('search-bar-wrapper');
+  if (measureSpan && searchBarWrapper) {
+    // Set the width of the search bar to the span width
+    searchBarWrapper.style.width = measureSpan.offsetWidth + 'px';
+    // Optional: Align the search bar to the same left as heading
+    // If you want the search bar to be centered the same way as the text, you may need further adjustments
+  }
+});
+
   </script>
   <div class="text-content">
             <p><i><b>Affiliated with Bloor Collegiate Institute</b></i></p>
@@ -68,8 +96,7 @@
                 </div>
   <!-- Search Bar Section     delete the bottom part of the search-bar wrapper style --- and change this style--- style="width: 650px; padding: 10px; font-size: 16px;"-->
   <div class="search-container" style="margin: 30px 0; text-align: center;">
-    <div class="search-bar-wrapper"
-      style="position: relative; display: inline-block; width: 650px;">
+    <div class="search-bar-wrapper" id="search-bar-wrapper" style="position: relative; display: inline-block;">
       <input 
         type="text" 
         id="opSearchInput"
