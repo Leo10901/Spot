@@ -9,7 +9,7 @@ body {
     position: static; 
     width: 100%;
     /*top: 0;*/
-    z-index: 1000;
+    /*z-index: 1000;*/
     /*padding: 20px;*/
     display: flex;
     justify-content: space-between;
@@ -223,15 +223,6 @@ font-size:10px;
 }
 
 /* Bounce animation - faster */
-.bounce {
-    animation: bounceAnimation 0.4s cubic-bezier(0.36, 0, 0.66, -0.56) forwards;
-}
-
-@keyframes bounceAnimation {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-}
 
 /* Bubbles */
 .bubble {
@@ -354,13 +345,7 @@ font-size:10px;
     background-color: #333;
 }
 
-/* Fix stacking context
-.nav-container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-} */
+
 .nav-links a {
     text-decoration: none;
     color: white;
