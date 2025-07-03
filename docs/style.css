@@ -7,7 +7,7 @@ body {
 /*Test delete later*/
 .nav-containerwhite {
     background: transparent !important;
-    position: relative;
+    position: fixed;
     z-index: 2;
 }
 
