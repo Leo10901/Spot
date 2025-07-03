@@ -18,7 +18,7 @@ body {
     background-image: url('headerfolder/pp.png'); /* or your specific image */
     background-size: cover;
     background-position: center;
-    min-height: 350px; /* adjust height as needed */
+    min-height: 390px; /* adjust height as needed */
     margin-top: -80px; /* negative value matching approx. nav height */
     padding-top: 80px;  /* offset content so it's not hidden by nav */
 }
