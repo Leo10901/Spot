@@ -8,9 +8,9 @@ body {
 .nav-containerwhite {  
     position: static; 
     width: 100%;
-    top: 0;
+    /*top: 0;*/
     z-index: 1000;
-    padding: 20px;
+    /*padding: 20px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
