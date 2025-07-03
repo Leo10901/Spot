@@ -4,40 +4,23 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background: white;
 }
-/*Test delete later*/
-.nav-containerwhite {
-    background: transparent !important;
-    position: fixed;
-    z-index: 2;
-}
-
-.hero-section,
-.internship-hero {
-    position: relative;
-    z-index: 1;
-    background-image: url('headerfolder/pp.png'); /* or your specific image */
-    background-size: cover;
-    background-position: center;
-    min-height: 390px; /* adjust height as needed */
-    margin-top: -80px; /* negative value matching approx. nav height */
-    padding-top: 80px;  /* offset content so it's not hidden by nav */
-}
 
 
 
 
 
 
-/*.nav-containerwhite {  */
+
+.nav-containerwhite {  
       /* position: fixed; */ /*Dont resotre this line this is garbage*/
-   /* width: 100%;*/
-   /* top: 0;*//*Dont resotre this line this is garbage*/
-   /* z-index: 1000;*/
-   /* padding: 20px;*/
-   /* display: flex;*/
-   /* justify-content: space-between;*/
-   /* align-items: center;*/
-   /* background: transparent*/
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  background: transparent
 }
 
 .nav-links {
