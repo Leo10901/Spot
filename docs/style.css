@@ -18,7 +18,23 @@ body {
     align-items: center;
  /* background: transparent*/
 }
+/*Test delete if doesnt work and testies as well*/
+.scroll-float {
+  overflow: hidden;
+}
 
+.scroll-float-text {
+  display: inline-block;
+  font-size: clamp(1.6rem, 8vw, 10rem);
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.char {
+  display: inline-block;
+}
+/* This is where the test ends*/
 .nav-links {
     display: flex;
     gap: 30px;
