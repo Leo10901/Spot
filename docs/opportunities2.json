@@ -89,5 +89,5 @@
   { "title": "Marshall Scholarship", "type": "Grad Fellowship", "deadline": "October", "link": "https://www.marshallscholarship.org", "description": "$40k per year for graduate study in the UK." },
   { "title": "Paul & Daisy Soros Fellowship", "type": "Grad", "deadline": "October", "link": "https://www.pdsoros.org", "description": "$90k funding for graduate students in the USA." },
   { "title": "Hertz Fellowship", "type": "STEM PhD", "deadline": "October", "link": "https://hertzfoundation.org", "description": "$250k for STEM PhD students in the USA." },
-  { "title": "NSF GRFP", "type": "STEM Grad", "deadline": "October", "link": "https://www.nsfgrfp.org", "description": "$34k per year for STEM graduate students in the USA." }
+  { "title": "NSF GRFP", "type": "STEM Grad", "deadline": "October", "link": "https://www.nsfgrfp.org", "description": "$34k per year for STEM graduate students in the USA." },
 ]
